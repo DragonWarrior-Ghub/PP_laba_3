@@ -22,11 +22,13 @@ def check_snils(snils):
 
 
 while(True):
-    answer_user = input() 
+
+    print("введите номер снилса: ", end = '')
+    answer_user = input()
     if answer_user == "stop":
         exit(0)
 
     print(check_snils(answer_user))
 
 #осознанный commit №1
-#Я молодец 
+#Я молодец
