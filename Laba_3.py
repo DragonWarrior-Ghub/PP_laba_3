@@ -23,7 +23,7 @@ def check_snils(snils):
 
 while(True):
 
-    print("введите номер снилса: ", end = '')
+    print("Введите номер снилса: ", end = '')
     answer_user = input()
     if answer_user == "stop":
         exit(0)
